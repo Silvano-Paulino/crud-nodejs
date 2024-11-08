@@ -1,6 +1,21 @@
-CRUD desenvolvoldido na linguagem nodejs com a framwork Express.
+## CRUD em ambiente nodejs
 
 Para poder usar este crud siga os seguintes passos:
-* O usar comando "npm init -y" no seu terminal
-* Para conexão com o banco de dados cria um arquivo .env e 
-preenche eguindo a estrutura do arquivo .env-examples
+
+1. Instalação
+```
+npm install
+```
+2. Configuração do banco de dados
+* Cria um ficheiro .env
+* Preencha o arquivo .env com os teus dados 
+
+3. Rodar o projecto
+```
+npm run dev
+```
+
+Depois de rodar o comando acima citado o projecto vai estar disponível no seguinte endereço:
+```
+http://localhost:3000
+```
